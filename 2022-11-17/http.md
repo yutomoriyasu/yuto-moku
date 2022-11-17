@@ -2,7 +2,8 @@
 
 - httpとは通信のルールであり、request, responseをクライアント・サーバー間で行われる
 - httpはrequest,responseの仕様を決めているに過ぎない
-- httpではいろいろなファイルを送れる
+- httpではいろいろなファイルをやり取りできるのでさまざまなプラットフォームで利用されている。
+- request headerに情報を詰め込むことができるのでリッチな情報を詰めて通信をすることができる
 - webを表示する際に RequestUrlに照合するデータをサーバーにリクエストする
 - html,css,js をhttpでやり取りする。 jsonmもやり取りできる
 - apiのresponseがjsonなのはweb上で動くjsで扱いやすいから
