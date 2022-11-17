@@ -1,6 +1,8 @@
 # HTTPのお話 2022-11-17
 
 - httpとは通信のルールであり、request, responseをクライアント・サーバー間で行われる
+- httpはrequest,responseの仕様を決めているに過ぎない
+- httpではいろいろなファイルを送れる
 - webを表示する際に RequestUrlに照合するデータをサーバーにリクエストする
 - html,css,js をhttpでやり取りする。 jsonmもやり取りできる
 - apiのresponseがjsonなのはweb上で動くjsで扱いやすいから
